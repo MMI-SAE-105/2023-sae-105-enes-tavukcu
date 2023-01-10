@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reboot">
+
+        <link rel="stylesheet" href="/src/css/carousel.css">
+        <link rel="stylesheet" href="/src/css/header.css">
+        <link rel="stylesheet" href="/src/css/footer.css">
+
+        <script src="https://unpkg.com/alpinejs" defer></script>
+
+    </head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__menu">
+            <a class="retoursite" href="index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+            <button @click="menuIsOpen = !menuIsOpen"
+    class="header_menuBtn"
+    aria-controle="mainNav">
+      <img src="/public/img/menu.svg" alt="menu">
+    </button> </div>  
+
+<nav 
+x-show="menuIsOpen"
+id="mainNav"
+        x-transition.duration.650ms
+        class="menu">
+        
+    <ul class="nom_article"> 
+        <li class="liste"><a href="/fr/page_film.html"> Exposition </a></li>
+        <li class="liste"><a href="/fr/page_livre.html"> Esthétique relationnelle </a></li>
+        <li class="liste"><a href="/fr/page_regret.html"> Contact </a></li>
+        <li class="liste"><a href="/fr/page_espoir.html"> Billeterie </a></li>
+    </ul>
+  </div>
+</nav>
+    </header>
