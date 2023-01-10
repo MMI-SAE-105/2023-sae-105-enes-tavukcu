@@ -1,0 +1,22 @@
+.header{
+    background: #E7C3C3; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    
+    
+    
+}
+.header__menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    
+  }
