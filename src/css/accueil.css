@@ -1,0 +1,22 @@
+.introduction{
+
+        width: 288px;
+    padding-bottom: 40px;
+    left: 44px;
+    top: 116px;
+    
+    /* texte article */
+    
+    font-family: 'Itim';
+    font-size: 20px;
+    color: #000000;
+    margin: auto;
+    margin-top: 40px;
+    }
+
+.ligne{
+    width: 250px;
+    text-align: center;
+    border-top: 1px solid #000000
+}
+.
