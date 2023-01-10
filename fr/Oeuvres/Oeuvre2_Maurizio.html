@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reboot">
+
+        <link rel="stylesheet" href="/src/css/carousel.css">
+        <link rel="stylesheet" href="/src/css/header.css">
+        <link rel="stylesheet" href="/src/css/footer.css">
+
+        <script src="https://unpkg.com/alpinejs" defer></script>
+
+    </head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__menu">
+            <a class="retoursite" href="/index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+            <button @click="menuIsOpen = !menuIsOpen"
+    class="header_menuBtn"
+    aria-controle="mainNav">
+      <img src="/public/img/menu.svg" alt="menu">
+    </button> </div>  
+
+<nav 
+x-show="menuIsOpen"
+id="mainNav"
+        x-transition.duration.650ms
+        class="menu">
+        
+    <ul class="nom_article"> 
+        <li class="liste"><a href="/fr/Info_expo.html"> Exposition </a></li>
+        <li class="liste"><a href="/fr/Mouvement_art.html"> Esthétique relationnelle </a></li>
+        <li class="liste"><a href="/fr/page_contact.html"> Contact </a></li>
+        <li class="liste"><a href="/fr/billeterie.html"> Billeterie </a></li>
+    </ul>
+  </div>
+</nav>
+    </header>
+
+    <main>
+
+        <h1> The Seven Ups</h1>
+
+        <img class="img_oeuvres" src="/public/img/oeuvre1_pierre.webp" alt="oeuvre">
+
+        <div class="info">
+            <p class="info_oeuvre">
+                Date : 2006
+            </p>
+            <p class="info_oeuvre">
+                Style : Conceptual Art
+            </p>
+            <p class="info_oeuvre">
+                Genre : Installation
+            </p>
+        </div>
+
+
+
+    <footer class="footer">
+            <p class="texte3">Pour rester au courant de nos actualités, suivez-nous sur</p>
+            <div class="reseaux">
+            <a href="https://www.facebook.com/FondationCartier/"><img src="/public/img/facebook.svg" alt="facebook" style="margin: 10px;"></a>
+            <a href="https://twitter.com/Fond_Cartier"><img src="/public/img/twitter.svg" alt="twitter" style="margin: 10px;"></a>
+            <a href="https://www.instagram.com/fondationcartier/"><img src="/public/img/instagram.svg" alt="instagram" style="margin: 10px;"></a>
+            <a href="https://www.deezer.com/fr/profile/857765281/playlists"><img src="/public/img/deezer.svg" alt="deezer" style="margin: 10px;"></a>
+            <a href="https://www.youtube.com/user/fondationcartier"><img src="/public/img/youtube.svg" alt="youtube" style="margin: 10px;"></a>
+            </div>
+            <div class="carre">
+            <p class="mail">Adresse e-mail</p>
+            <p class="news">S’inscrire à la newsletter</p>
+            </div>
+            <a class="retoursite" href="index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+        </footer>
+    
+    </main>
+    </body>
+    </html>
