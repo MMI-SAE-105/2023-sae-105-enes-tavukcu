@@ -1,6 +1,7 @@
 .img_expo{
     width: 325px;
     height: 249px;
+    border-radius: 10px 10px 0px 0px;
 }
 .img_mouvement{
     width: 300px;
