@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reboot">
+
+        <link rel="stylesheet" href="carousel.css">
+
+        <script src="https://unpkg.com/alpinejs" defer></script>
+
+    </head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__menu">
+            <a class="retoursite" href="index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+            <button @click="menuIsOpen = !menuIsOpen"
+    class="header_menuBtn"
+    aria-controle="mainNav">
+      <img src="/public/img/menu.svg" alt="logo_menu">
+    </button>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel_parent-ecrans">
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/img_pierre.webp" alt="image ecran 1">
+                        <figcaption>American astronaut James Irvin standing next to the American flag on the Moon during the Apollo 15 mission, 11 August 1971</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/img_navjot.webp"image ecran 2">
+                        <figcaption>International Space Station</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/img_jorge.webp" alt="image ecran 3">
+                        <figcaption>Launch of a space shuttle</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/img_maurizio.webp" alt="image ecran 4">
+                        <figcaption>The dog Laika on board the Russian spacecraft Sputnik II</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+</body>
+</html>
