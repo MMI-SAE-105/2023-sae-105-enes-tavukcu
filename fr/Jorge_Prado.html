@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reboot">
+
+        <link rel="stylesheet" href="/src/css/carousel.css">
+        <link rel="stylesheet" href="/src/css/header.css">
+        <link rel="stylesheet" href="/src/css/footer.css">
+
+        <script src="https://unpkg.com/alpinejs" defer></script>
+
+    </head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__menu">
+            <a class="retoursite" href="index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+            <button @click="menuIsOpen = !menuIsOpen"
+    class="header_menuBtn"
+    aria-controle="mainNav">
+      <img src="/public/img/menu.svg" alt="menu">
+    </button> </div>  
+
+<nav 
+x-show="menuIsOpen"
+id="mainNav"
+        x-transition.duration.650ms
+        class="menu">
+        
+    <ul class="nom_article"> 
+        <li class="liste"><a href="/fr/Info_expo.html"> Exposition </a></li>
+        <li class="liste"><a href="/fr/Mouvement_art.html"> Esthétique relationnelle </a></li>
+        <li class="liste"><a href="/fr/page_contact.html"> Contact </a></li>
+        <li class="liste"><a href="/fr/billeterie.html"> Billeterie </a></li>
+    </ul>
+  </div>
+</nav>
+    </header>
+
+    <main>
+
+    <h1> Jorge Prado </h1>
+
+    <img src="/public/img/img_jorge.webp" alt="Jorge_Prado">
+
+    <div classe="info_artiste">
+        <p class="naissance">
+            Date de naissance : 11 septembre 1962; Paris, France
+        </p>
+        <p class="naissance">
+            Nationalité : Français
+        </p>
+        <p class="naissance">
+            Mouvement artistique : Esthétique relationnelle 
+        </p>
+        <p class="naissance">
+            Domaine : printmarking, sculpture, design, installation
+        </p>
+        
+    </div>
+
+    <p class="detail_artiste">
+        Pierre Huyghes, étudie à l'École supérieure des arts décoratifs de Paris de 1982 à 1985.
+        Il intègre et devient cofondateur du collectif « Les frères Ripoulin ».
+    </p>
+    <p class="detail_artiste">
+        en 1998, il expose avec Dominique Gonzalez-Foerster et Philippe Parreno.
+         Il réalise une exposition où l’accrochage est d’un nouveau genre : une sorte 
+         de parcours cinématographique dont une speakerine filmée rythme les étapes.
+          La même année, il est lauréat de la Villa Kujoyama.
+    </p>
+
+    <img src="/public/img/img_pierre2.webp" alt="Pierre_Huyghes">
+
+    <p class="detail_artiste">
+        En 2010, Pierre Huyghe achève l'expérience The Host and the Cloud.
+         Cette dernière est une situation réelle, qui s'est déroulée dans un musée fermé au fond d'un parc d'attraction.
+         La même année, Pierre Huyghe reçoit le prix de l’artiste contemporain de l’année 2010,
+          une récompense décernée par le Smithsonian American Art Museum (Washington D.C.).
+    </p>
+
+    <h2> Ses oeuvres </h2>
+
+    <a href="/fr/Oeuvre/Oeuvre1_Pierre">
+    <h3> One Year Celebration</h3>
+    <img class="img_oeuvres" src="/public/img/oeuvre1_pierre.webp" alt="oeuvre">
+    <p class="savoir_plus"> En savoir plus </p>
+    </a>
+
+    <hr class="ligne">
+
+    <a href="/fr/Oeuvre/Oeuvre2_Pierre">
+        <h3> La Toison D'or </h3>
+        <img class="img_oeuvres" src="/public/img/oeuvre2_pierre.webp" alt="oeuvre">
+        <p class="savoir_plus"> En savoir plus </p>
+        </a>
+
+
+
+
+
+
+    <footer class="footer">
+        <p class="texte3">Pour rester au courant de nos actualités, suivez-nous sur</p>
+        <div class="reseaux">
+        <a href="https://www.instagram.com/enesss.25/"><img src="/public/img/facebook.svg" alt="facebook" style="margin: 10px;"></a>
+        <a href="https://www.instagram.com/enesss.25/"><img src="/public/img/twitter.svg" alt="twitter" style="margin: 10px;"></a>
+        <a href="https://www.instagram.com/enesss.25/"><img src="/public/img/instagram.svg" alt="instagram" style="margin: 10px;"></a>
+        <a href="https://www.instagram.com/enesss.25/"><img src="/public/img/deezer.svg" alt="deezer" style="margin: 10px;"></a>
+        <a href="https://www.instagram.com/enesss.25/"><img src="/public/img/youtube.svg" alt="youtube" style="margin: 10px;"></a>
+        </div>
+        <div class="carre">
+        <p class="mail">Adresse e-mail</p>
+        <p class="news">S’inscrire à la newsletter</p>
+        </div>
+        <a class="retoursite" href="index.html">
+            <p class="Nomsite">Expo RELAX</p>
+        </a>
+    </footer>
+
+    
+
+
+
+
+
+
+</main>
+</body>
+</html>
