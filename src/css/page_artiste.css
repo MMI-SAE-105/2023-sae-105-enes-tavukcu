@@ -23,11 +23,53 @@
     font-size: 20px;
 }
 .img_pierre2{
-    width: 330px;
-    height: 350px;
-    padding-left: 20px;
+    width: 350px;
+    height: 390px;
+    padding-left: 15px;
 }
-.img_oeuvres{
+.img_oeuvres1{
+    width: 350px;
+    height: 303px;
+    padding-left: 13px;
+    margin: auto;
+}
+.img_oeuvres2{
+    width: 306px;
+    height: 306px;
+    padding-left: 35px;
+    margin: auto;
+}
+.img_oeuvres3{
+    width: 360px;
+height: 259px;
+    padding-left: 7px;
+    margin: auto;
+}
+.img_oeuvres4{
+    width: 347px;
+height: 245px;
+    padding-left: 15px;
+    margin: auto;
+}
+.img_oeuvres5{
+    width: 306px;
+    height: 306px;
+    padding-left: 28px;
+    margin: auto;
+}
+.img_oeuvres6{
+    width: 306px;
+    height: 306px;
+    padding-left: 28px;
+    margin: auto;
+}
+.img_oeuvres7{
+    width: 306px;
+    height: 306px;
+    padding-left: 28px;
+    margin: auto;
+}
+.img_oeuvres8{
     width: 306px;
     height: 306px;
     padding-left: 28px;
@@ -65,5 +107,10 @@ h3{
 .img_maurizio1{
     width: 340px;
     height: 240px;
+    padding-left: 20px;
+}
+.img_navjot{
+    width: 330px;
+    height: 305px;
     padding-left: 20px;
 }
