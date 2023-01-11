@@ -10,8 +10,15 @@
         <link rel="stylesheet" href="/src/css/header.css">
         <link rel="stylesheet" href="/src/css/footer.css">
         <link rel="stylesheet" href="/src/css/main.css">
+        <link rel="stylesheet" href="/src/css/menu.css">
+        <link rel="stylesheet" href="/src/css/mouvement.css">
+
+
 
         <script src="https://unpkg.com/alpinejs" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter&family=Itim&family=K2D&family=Kalam&display=swap');
+            </style>
 
     </head>
 
@@ -19,7 +26,7 @@
     
     <header class="header">
         <div class="header__menu">
-            <a class="retoursite" href="index.html">
+            <a class="retoursite" href="/index.html">
                 <p class="Nomsite">Expo RELAX</p>
             </a>
             <button @click="menuIsOpen = !menuIsOpen"
@@ -45,9 +52,9 @@ id="mainNav"
     </header>
 
     <main>
-        <h1> Esthétique relationnelle </h1>
+        <p class="titre_page"> Esthétique relationnelle </p>
 
-        <img src="/public/img/accueil_img2.webp" alt="mouvement_artistique">
+        <img class="mouvement" src="/public/img/accueil_img2.webp" alt="mouvement_artistique">
 
         <p class="texte_mouvement">
             L‘esthétique relationnelle ou art relationnel est un mouvement ou une théorie de l'art contemporain, 
