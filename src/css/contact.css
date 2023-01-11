@@ -1,0 +1,52 @@
+.titre_page{
+    font-family: 'Fredoka';
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.formulaire {
+    
+    margin: 40px;
+  }
+.texte_contacte{
+    font-family: 'K2D';
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 2;
+    
+    
+}
+.rectangle_contacte{
+    font-family: 'K2D';
+    height: 30px;
+    width: 295px;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.rectangle_com{
+    font-family: 'K2D';
+    height: 300px;
+    width: 295px;
+    border: none;
+    background-color: #e9e9e9;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.bouton_contacte_envoyer{
+    border: none;
+    font-family: 'K2D';
+    font-size: medium;
+    margin-left: 110px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.bloc{
+    padding-bottom: 20px;
+    
+}
+.envoie{
+    padding: 5px;
+}
