@@ -1,0 +1,10 @@
+.menu {
+    position: fixed;
+   
+    width: 100vw;
+    height: 217vw;
+    background: #E7C3C3;
+    
+    place-content: center;
+    font-size: 18px;
+  }
