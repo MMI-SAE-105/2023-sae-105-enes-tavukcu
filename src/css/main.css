@@ -8,3 +8,7 @@ a{
 body{
     margin: 0;
 }
+.retour_nom_artiste{
+    font-family: 'K2D';
+    font-size: 14px;
+}
