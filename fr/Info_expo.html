@@ -94,10 +94,11 @@ id="mainNav"
         </p>
     </div>
 
-    <a href="/fr/billeterie.html">
-    <p class="reserver"> Réserver </p>
-    </a>
-
+    
+    <section x-data="{isOpen:false}">
+        <button class="btn_reserve" @click="isOpen = ! isOpen"><p class="txt_rsv">Reserver</p></button>
+        <p class="desoler" x-show="isOpen" x-collapse> La réservation n'est toujours pas disponible. </p>
+      </section>
 
     
 
