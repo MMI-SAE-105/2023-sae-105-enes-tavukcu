@@ -1,9 +1,81 @@
-h1{
+.titre_page{
     font-family: 'Fredoka';
-    font-weight: bold;
+    font-weight: bolder;
+    padding-top: 140px;
+    text-align: center;
+    font-size: 24px;
 }
 .img_expo2{
     width: 353px;
     height: 199px;
+    top: 175px;
+    padding-left: 11px;
     margin: auto;
+}
+.sous_titre{
+    font-family: 'K2D';
+    font-size: 24px;
+    text-align: center;
+}
+.info{
+    height: 280px;
+    width: auto;
+    background: #E7C3C3;
+}
+.date{
+    font-family: 'Itim';
+    font-size: 20px;
+    width: 285px;
+    padding-left: 22px;
+    padding-top: 10px;
+
+}
+.lieu{
+        font-family: 'Itim';
+        font-size: 20px;
+        width: 285px;
+        padding-left: 22px;
+padding-left: 22px;
+}
+.horaire{
+        font-family: 'Itim';
+        font-size: 20px;
+        width: 285px;
+        padding-left: 22px;
+}
+.ligne{
+    width: 250px;
+    text-align: center;
+   border: 1px solid;
+   margin-top: 30px;
+   margin-bottom: 50px;
+    
+}
+.titre_tarif{
+    font-family: 'K2D';
+    font-size: 32px;
+    text-align: center;
+}
+.tarifs{
+    padding-left: 22px;
+}
+.prix{
+    font-family: 'K2D';
+    font-size: 20px;
+}
+.reserver{
+    
+width: 120px;
+height: 38px;
+border-radius: 5px;
+font-family: 'K2D';
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+background: #A4B4EB;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+
 }
