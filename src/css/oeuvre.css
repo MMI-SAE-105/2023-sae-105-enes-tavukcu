@@ -1,0 +1,18 @@
+.img_oeuvres{
+    width: 350px;
+    height: 300px;
+    padding-left: 13px;
+}
+.titre_page{
+    font-family: 'Fredoka';
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.info{
+    padding-left: 28px;
+    width: 337px;
+    font-family: 'Itim';
+    font-size: 20px;
+}
