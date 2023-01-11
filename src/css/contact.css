@@ -41,6 +41,7 @@
     font-size: medium;
     margin-left: 110px;
     border-radius: 5px 5px 5px 5px;
+    padding: 10px;
     
 }
 .bloc{
@@ -48,5 +49,12 @@
     
 }
 .envoie{
-    padding: 5px;
+    padding: 10px;
+}
+.message{
+    font-family: 'K2D';
+    width: 297px;
+    padding-left: 40px;
+    font-size: 20px;
+
 }
