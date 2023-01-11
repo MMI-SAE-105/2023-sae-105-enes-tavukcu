@@ -17,6 +17,8 @@ height: 125px;
 font-family: 'Itim';
 font-size: 20px;
 margin: auto;
+padding-bottom: 20px;
+padding-top: 40px;
 }
 .texte_mouvement2{
     width: 344px;
@@ -24,6 +26,8 @@ height: 125px;
 font-family: 'Itim';
 font-size: 20px;
 margin: auto;
+padding-bottom: 20px;
+
 }
 .texte_mouvement3{
     width: 344px;
@@ -31,4 +35,36 @@ height: 125px;
 font-family: 'Itim';
 font-size: 20px;
 margin: auto;
+padding-bottom: 40px;
+
+}
+.ligne{
+    width: 250px;
+    text-align: center;
+   border: 1px solid;
+   margin-top: 80px;
+   margin-bottom: 50px;
+    
+}
+.artiste{
+    text-align: center;
+    font-family: 'K2D';
+    font-size: 20px;
+}
+.voir{
+    text-align: center;
+    color:black;
+    font-family: 'Itim';
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+width: 75px;
+    height: 30px;
+  background: #A4B4EB;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
 }
