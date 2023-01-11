@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Reboot">
+
+        <link rel="stylesheet" href="/src/css/carousel.css">
+        <link rel="stylesheet" href="/src/css/header.css">
+        <link rel="stylesheet" href="/src/css/footer.css">
+        <link rel="stylesheet" href="/src/css/main.css">
+        <link rel="stylesheet" href="/src/css/menu.css">
+        <link rel="stylesheet" href="/src/css/page_artiste.css">
+
+        <script src="https://unpkg.com/alpinejs" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter&family=Itim&family=K2D&family=Kalam&display=swap');
+            </style>
+
+    </head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__menu">
+            <a class="retoursite" style="display: contents;" href="/index.html">
+                <p class="Nomsite">Expo RELAX</p>
+            </a>
+            <button @click="menuIsOpen = !menuIsOpen"
+    class="header_menuBtn"
+    aria-controle="mainNav">
+      <img src="/public/img/menu.svg" alt="menu">
+    </button> </div>  
+
+<nav 
+x-show="menuIsOpen"
+id="mainNav"
+        x-transition.duration.650ms
+        class="menu">
+        
+    <ul class="nom_article"> 
+        <li class="liste"><a href="/fr/Info_expo.html"> Exposition </a></li>
+        <li class="liste"><a href="/fr/Mouvement_art.html"> Esthétique relationnelle </a></li>
+        <li class="liste"><a href="/fr/page_contact.html"> Contact </a></li>
+        <li class="liste"><a href="/fr/billeterie.html"> Billeterie </a></li>
+    </ul>
+  </div>
+</nav>
+    </header>
+
+    <main>
+
+        <p class="titre_page"> Maurizio Cattelan </p>
+
+    <img class="img_maurizio1" src="/public/img/img_maurizio.webp" alt="Maurizio_Cattelan">
+
+    <div classe="info_artiste" style="background: #E7C3C3; padding-top: 1px; padding-bottom: 1px; margin-top: 20px;">
+        <p class="naissance">
+            Naissance: 21 septembre 1960; Padova, Italy
+        </p>
+        <p class="naissance">
+            Nationalité : Italien
+        </p>
+        <p class="naissance">
+            Mouvement artistique : Esthétique relationnelle 
+        </p>
+        <p class="naissance">
+            Domaine : performance, sculpture, design, installation
+        </p>
+        
+    </div>
+
+    <p class="detail_artiste">
+        Maurizio Cattelan est un artiste italien né à Padoue le 21 septembre 1960. Il vit et travaille à New York.
+        Ses œuvres connaissent le succès à la fin des années 2000 sur le marché de l'art contemporain et chez les collectionneurs.
+    </p>
+    <p class="detail_artiste">
+        Au début des années 1980, il se met à fabriquer des petits meubles en bois, qu'il tente de vendre,
+         ce qui lui permet d'entrer en contact avec des personnalités du design comme Ettore Sottsass et le groupe de Memphis.
+          Il fait alors éditer un catalogue de ses réalisations qu'il envoie par mailing aux galeries en un millier d'exemplaires.
+           Cette action promotionnelle lui permet de faire une petite percée dans le milieu du design et de l'art contemporain.
+    </p>
+
+    <img class="img_maurizio2" src="/public/img/img_maurizio2.webp" alt="Maurizio_Cattelan">
+
+    <p class="detail_artiste">
+        Il décide alors de trouver sa place et de faire parler de lui par la provocation et les détournements,
+         ou par la surprise : il plante des oliviers dans les jardins de diverses institutions.
+          Par exemple, il présente une autruche empaillée avec la tête enterrée dans le sol,
+           se balade déguisé en figurine avec une tête géante de Picasso.
+    </p>
+
+    <h2> Ses oeuvres </h2>
+
+    <a href="/fr/Oeuvres/Oeuvre1_Maurizio.html">
+    <h3> Mini Me </h3>
+    <img class="img_oeuvres5" src="/public/img/oeuvre1_maurizio.webp" alt="oeuvre">
+    <p class="savoir_plus"> En savoir plus </p>
+    </a>
+
+    <hr class="ligne">
+
+    <a href="/fr/Oeuvres/Oeuvre2_Maurizio.html">
+        <h3> La Rivoluzione siamo noi </h3>
+        <img class="img_oeuvres6" src="/public/img/oeuvre2_maurizio.webp" alt="oeuvre">
+        <p class="savoir_plus"> En savoir plus </p>
+        </a>
+
+
+
+
+
+
+        <footer class="footer">
+            <p class="texte3">Pour rester au courant de nos actualités, suivez-nous sur</p>
+            <div class="reseaux">
+            <a href="https://www.facebook.com/FondationCartier/"><img src="/public/img/facebook.svg" alt="facebook" style="margin: 10px;"></a>
+            <a href="https://twitter.com/Fond_Cartier"><img src="/public/img/twitter.svg" alt="twitter" style="margin: 10px;"></a>
+            <a href="https://www.instagram.com/fondationcartier/"><img src="/public/img/instagram.svg" alt="instagram" style="margin: 10px;"></a>
+            <a href="https://www.deezer.com/fr/profile/857765281/playlists"><img src="/public/img/deezer.svg" alt="deezer" style="margin: 10px;"></a>
+            <a href="https://www.youtube.com/@fondationcartier"><img src="/public/img/youtube.svg" alt="youtube" style="margin: 10px;"></a>
+            </div>
+            <div class="carre">
+            <p class="mail">Adresse e-mail</p>
+            <p class="news">S’inscrire à la newsletter</p>
+            </div>
+            <a class="retoursite" href="/index.html">
+                <p class="Nomsite2">Expo RELAX</p>
+            </a>
+        </footer>
+    
+    </main>
+    </body>
+    </html>

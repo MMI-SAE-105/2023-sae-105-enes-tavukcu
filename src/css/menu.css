@@ -19,3 +19,13 @@
     font-family: 'K2D';
     font-size: 24px;
   }
+  .fren_menu{
+    padding-left: 14px;
+    font-size: larger;
+    margin-top: 0px;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 5px;
+    font-family: 'K2D';
+    color: #f0f0f0;
+  }
