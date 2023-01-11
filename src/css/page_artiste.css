@@ -64,15 +64,15 @@ height: 453px;
     margin: auto;
 }
 .img_oeuvres7{
-    width: 306px;
-    height: 306px;
-    padding-left: 28px;
+    width: 330px;
+height: 222px;
+    padding-left: 23px;
     margin: auto;
 }
 .img_oeuvres8{
-    width: 306px;
-    height: 306px;
-    padding-left: 28px;
+    width: 310px;
+    height: 310px;
+    padding-left: 33px;
     margin: auto;
 }
 .ligne{
@@ -109,8 +109,18 @@ h3{
     height: 240px;
     padding-left: 20px;
 }
-.img_navjot{
+.img_maurizio2{
+    width: 360px;
+height: 240px;
+padding-left: 7px;
+}
+.img_jorge1{
+    width: 267px;
+height: 400px;
+    padding-left: 57px;
+}
+.img_jorge2{
     width: 330px;
-    height: 305px;
-    padding-left: 20px;
+    height: 330px;
+    padding-left: 23px;
 }
