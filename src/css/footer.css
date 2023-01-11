@@ -51,17 +51,16 @@ border: 1px solid #000000;
 
 margin-bottom: 20px;
 }
-.carre{
 
-}
 .Nomsite2{
 
 
         font-family: 'Kalam';
         font-style: normal;
         font-size: 24px;
-        margin-right: 65px;
         
+        display: flex;
+        justify-content: center;
   
         
         color: #000000;
